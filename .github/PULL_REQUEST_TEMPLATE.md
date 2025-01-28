@@ -12,27 +12,39 @@ A description of what this pull request does, as well as QA test steps (if appli
 
 #### Ticket Link
 <!--
-If this pull request addresses a Help Wanted ticket, please link the relevant GitHub issue, e.g.
+If applicable, please include both or either of the following links:
 
-  Fixes https://github.com/mattermost/mattermost-server/issues/XXXXX
+Fixes https://github.com/mattermost/mattermost/issues/XXX
+Jira https://mattermost.atlassian.net/browse/MM-XXX
+-->
 
-Otherwise, link the JIRA ticket.
+#### Screenshots
+<!--
+If the PR includes UI changes, include screenshots/GIFs.
+
+For an easier comparison of UI changes a table (template below) can be used.
+
+|  before  |  after  |
+|----|----|
+| <insert before screenshot here> | <insert after screenshot here> |
+
 -->
 
 #### Release Note
 <!--
 Add a release note for each of the following conditions:
 
-* Config changes (additions, deletions, updates)
-* API additions—new endpoint, new response fields, or newly accepted request parameters
-* Database changes (any)
-* Websocket additions or changes
-* Anything noteworthy to a Mattermost instance administrator (err on the side of over-communicating)
-* New features and improvements, including behavioural changes, UI changes and CLI changes
-* Bug fixes and fixes of previous known issues
-* Deprecation warnings, breaking changes, or compatibility notes
+* Config changes (additions, deletions, updates).
+* API additions—new endpoint, new response fields, or newly accepted request parameters.
+* Database changes (any).
+* Schema migration changes. Use the [Schema Migration Template](https://docs.google.com/document/d/18lD7N32oyMtYjFrJKwsNv8yn6Fe5QtF-eMm8nn0O8tk/edit?usp=sharing) as a starting point to capture these details as release notes. 
+* Websocket additions or changes.
+* Anything noteworthy to a Mattermost instance administrator (err on the side of over-communicating).
+* New features and improvements, including behavioral changes, UI changes, and CLI changes.
+* Bug fixes and fixes of previous known issues.
+* Deprecation warnings, breaking changes, or compatibility notes.
 
-If no release notes are required write NONE. Use past-tense. Newlines are stripped.
+If no release notes are required, write NONE. Use past-tense. Newlines are stripped.
 
 Examples:
 
@@ -44,7 +56,7 @@ Added new API endpoints POST /api/v4/foo, GET api/v4/foo, and GET api/v4/foo/:fo
 Added a new config setting ServiceSettings.FooBar. Added a new column Foo to the Users table.
 ```
 
-```
+```release-note
 NONE
 ```
 -->
